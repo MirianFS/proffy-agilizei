@@ -11,11 +11,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout/@v1
       - name: Instalar as dependencias do server
-        uses: bahmuton/npm-install@v1
+        uses: bahmutov/npm-install@v1
         with:
           working-directory: server
       - name: Instalar as dependencias do web
-        uses: bahmuton/npm-install@v1
+        uses: bahmutov/npm-install@v1
         with:
           working-directory: web
       - name: Component & API & UI Tests
