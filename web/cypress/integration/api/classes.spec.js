@@ -25,7 +25,7 @@ context('Classes endpoint', () => {
                 console.log(response)
                 expect(response.status).to.eq(201)
                 expect(response.statusText).to.eq('Created')
-                expect(response.duration).lessThan(50)
+                expect(response.duration).lessThan(250)
                 expect(response.body).to.have.property('0').to.have.property('class_id').an('number')
                 expect(response.body).to.have.property('0').to.have.property('week_day').to.eq('3')
                 expect(response.body).to.have.property('0').to.have.property('from').an('number').to.eq(1200)
