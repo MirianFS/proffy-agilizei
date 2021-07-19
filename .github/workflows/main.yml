@@ -23,5 +23,5 @@ jobs:
         with:
           working-directory: web
           install: false
-          key: npm run start:ci
+          key: start:ci
           wait-on: 'http://localhost:3000/'     
