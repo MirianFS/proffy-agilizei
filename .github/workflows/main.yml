@@ -14,11 +14,14 @@ jobs:
         uses: bahmuton/npm-install@v1
         with:
           working-directory: server
+      - name: Instalar as dependencias do web
+        uses: bahmuton/npm-install@v1
+        with:
+          working-directory: web
       - name: Component & API & UI Tests
         uses: cypress-io/github-action@v2
         with:
           working-directory: web
           install: false
           key: npm run start:ci
-          wait-on: 'http://localhost:3000/'
-            
+          wait-on: 'http://localhost:3000/'     
