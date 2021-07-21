@@ -13,6 +13,11 @@
 
 *Pronto, agora é só acompanhar a aula* ⚡️
 
-290b0626-d219-4f48-bf82-64c3872a3d82
-npx cypress run --record --key 290b0626-d219-4f48-bf82-64c3872a3d82
-yqiaf5
+## Módulo 4
+
+Neste modulo é visto testes de component, API e UI
+Testes de Component
+
+Testes de API
+
+Testes de UI
